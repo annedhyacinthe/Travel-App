@@ -7,12 +7,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="materialize.css" type="text/css" />
   <title>Document</title>
 </head>
 <body>
   <div class ='row'>
     <form id = 'myForm'>
-      <div class = 'row'>
+     
         <div class = 'input'>
           <label for = 'budget'>Enter Your Budget:</label>
           <input id = 'budget' type="text" name = 'budget'/>
@@ -23,19 +24,28 @@
           <input type="date" name=" date" id ='arrival'/>
           <input type="submit" name = 'budget' class = 'validate'/>
         </div>
-      </div>
+     
     </form>
     <section>
       
     </section>
   </div>
-
-  
- 
+  <!-- <div class="container">
+  <div class="row">
+    <div class="col s12">This div is 12-columns wide</div>
+    <div class="col s6">This div is 6-columns wide</div>
+    <div class="col s6">This div is 6-columns wide</div>
+  </div>
+  <div class="row">
+    
+    <div class="col s6">This div is 6-columns wide</div>
+  </div>
+</div> -->
   <script src="getHotels.js"></script>
   <script type="text/javascript" src="rand.js"></script>
-  <!-- <script src="generateCities.js"></script> -->
-  <script src="generateTenflights.js"></script>
+  <script src="generateCities.js"></script>
+  <script src="generateFlights.js"></script>
   <script src="searchForTrips.js"></script>
+  <script src="makeCityPg.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "csv-parse": "^4.8.6",
-    "materialize-css": "^1.0.0-rc.2",
+    "materialize-css": "^1.0.0",
     "unirest": "^0.6.0"
   },
   "devDependencies": {
