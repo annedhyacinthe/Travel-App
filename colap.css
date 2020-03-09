@@ -1,0 +1,7 @@
+.collapsible li.disabled .collapsible-body {
+    display: none !important; /*or using id of the app to avoid the use of !important*/
+}
+
+.collapsible li.disabled .collapsible-header {
+    background: rgb(221,221,221);
+}

@@ -1,3 +1,62 @@
+<html>  
+   <head>  
+      <title>The Materialize Collapsible Example</title>  
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">        
+      <link rel = "stylesheet"  
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">  
+      <link rel = "stylesheet"  
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">  
+      <script type = "text/javascript"  
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>             
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">  
+      </script>  
+   </head>  
+     
+   <body class = "container">   
+    
+    <div class ='row'>
+      <form id = 'myForm'>
+       
+          <div class = 'input'>
+            <label for = 'budget'>Enter Your Budget:</label>
+            <input id = 'budget' type="text" name = 'budget'/>
+            <label for="city">Enter Your Location:</label>
+            <input id = 'city' type="text" name = 'departure'/>
+            <label for = 'date'>Enter Dates:</label>
+            <input type="date" name=" date" id ='departure'/>
+            <input type="date" name=" date" id ='arrival'/>
+            <input type="submit" name = 'budget' class = 'validate'/>
+          </div>
+       
+      </form>
+      <section>
+        
+      </section>
+    </div>
+    <h4>Popout Accordion</h4>  
+    <ul class = "collapsible popout" data-collapsible = "accordion">  
+       <li>  
+          <div class = "collapsible-header">  
+             <i class = "material-icons">filter_drama</i>First Section</div>  
+          <div class = "collapsible-body"><p>This is first section.</p></div>  
+       </li>  
+         
+       <li>  
+          <div class = "collapsible-header">  
+             <i class = "material-icons">place</i>Second Section</div>  
+          <div class = "collapsible-body"><p>This is second section.</p></div>  
+       </li>  
+         
+       <li>  
+          <div class = "collapsible-header">  
+             <i class = "material-icons">whatshot</i>Third Section</div>  
+          <div class = "collapsible-body"><p>This is third section.</p></div>  
+       </li>  
+    </ul>  
+   </body>    
+</html>  
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,27 +65,36 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="new.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
   <link rel="stylesheet" href="materialize.css" type="text/css" />
   <title>Document</title>
 </head>
 <body>
-  <div class="container"> 
-    <div class="row">
-      <div class="col s1" id = 'dest'></div>
-      <div class="col s1">2</div>
-      <div class="col s1">3</div>
-      <div class="col s1">4</div>
-      <div class="col s1">5</div>
-      <div class="col s1">6</div>
-      <div class="col s1">7</div>
-      <div class="col s1">8</div>
-      <div class="col s1">9</div>
-      <div class="col s1">10</div>
-      <div class="col s1">11</div>
-      <div class="col s1">12</div>
-    </div>
+  <div class ='row'>
+    <form id = 'myForm'>
+     
+        <div class = 'input'>
+          <label for = 'budget'>Enter Your Budget:</label>
+          <input id = 'budget' type="text" name = 'budget'/>
+          <label for="city">Enter Your Location:</label>
+          <input id = 'city' type="text" name = 'departure'/>
+          <label for = 'date'>Enter Dates:</label>
+          <input type="date" name=" date" id ='departure'/>
+          <input type="date" name=" date" id ='arrival'/>
+          <input type="submit" name = 'budget' class = 'validate'/>
+        </div>
+     
+    </form>
+    <section>
+      
+    </section>
   </div>
+ 
+  <script src="getHotels.js"></script>
+  <script type="text/javascript" src="rand.js"></script>
+  <script src="generateCities.js"></script>
+  <script src="generateFlights.js"></script>
+  <script src="searchForTrips.js"></script>
   <script src="makeCityPg.js"></script>
 </body>
 </html>
